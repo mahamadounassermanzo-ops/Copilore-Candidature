@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { background: #F2F5F6; color: #12212B; font-family: var(--font-body), system-ui, sans-serif; }
+:focus-visible { outline: 2px solid #0E5A4F; outline-offset: 2px; }
+@media print { body * { visibility: hidden; } #print-area, #print-area * { visibility: visible; } #print-area { position: absolute; inset: 0; border: 0; } }
